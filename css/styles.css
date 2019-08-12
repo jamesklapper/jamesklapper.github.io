@@ -1,8 +1,5 @@
 /* Smartphone */
 @media (max-width: 575.98px) {
-  .container-fluid {
-    padding: 0 1%;
-  }
   .navbar-brand {
     font-size: 1rem;
   }
@@ -16,15 +13,21 @@
   .navbar-brand {
     font-size: 1.25rem;
   }
-  .article-card {
+  .primary-card {
     padding: 5% 0;
+  }
+  .secondary-card {
+    padding: 0;
   }
 }
 
 /* Laptop */
 @media (min-width: 768px) {
-  .article-card {
+  .primary-card {
     padding: 5% 15%;
+  }
+  .secondary-card {
+    padding: 0 15%;
   }
 }
 
@@ -78,15 +81,11 @@ h3 {
 
 #content {
   background-color: #f5f5f5;
-  padding: .5% 0;
+  padding: 3% 0;
   text-align: center;
 }
 
-.article-card {
-  margin: .5% 0;
-}
-
-.carousel-card {
+.card {
   margin: .5% 0;
 }
 
