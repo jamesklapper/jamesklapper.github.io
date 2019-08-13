@@ -12,6 +12,7 @@
   }
   .navbar-brand {
     font-size: 1.25rem;
+    margin-right: 7rem;
   }
   .primary-card {
     padding: 5% 0;
@@ -79,7 +80,6 @@ h4 {
 
 .navbar-brand {
   font-weight: bold;
-  margin-right: 7rem;
   white-space: normal;
 }
 
