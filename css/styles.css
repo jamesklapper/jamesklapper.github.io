@@ -46,11 +46,7 @@
 
 body {
   font-family: 'Muli', sans-serif;
-}
-
-h1 {
-  line-height: 1.5;
-  text-align: center;
+  text-align: left;
 }
 
 h3 {
@@ -63,8 +59,14 @@ h4 {
   line-height: 1.5;
 }
 
-.container-fluid {
+h5 {
+  font-weight: bold;
+  line-height: 1.5;
+}
 
+hr {
+  background-color: #f5f5f5;
+  margin: 3% 0;
 }
 
 /* Navigation Bar */
@@ -88,63 +90,74 @@ h4 {
 #content {
   background-color: #f5f5f5;
   padding: 3% 0;
-  text-align: center;
+}
+
+.banner {
+  background-color: #3F729B;
+}
+
+.btn-block {
+  margin: .5% 0;
+  padding: 2%;
+}
+
+.btn-icon {
+  display: inline;
+}
+
+.btn-title {
+  display: inline;
+  padding-left: 1%;
+  white-space: normal;
 }
 
 .card {
   margin: .5% 0;
 }
 
-.card-body {
-
+.card-description {
+  margin-top: .75rem;
+  line-height: 1;
 }
 
 .card-subtitle {
+  font-weight: bold;
   margin-top: .75rem;
   margin-bottom: 0;
+  padding: 1% 0;
 }
 
-.hr-services {
-  background-color: #f5f5f5;
-  margin: 3% 0;
+.card-title {
+  text-align: center;
+}
+
+.hours-time {
+  padding-bottom: 1%;
+}
+
+.other-resources {
+  margin: 1px 0;
 }
 
 .service-insurance {
   font-weight: bold;
-  padding: 3% 0;
+  padding: 2% 0;
   text-align: center;
 }
 
-.service-subtitle {
-  font-weight: bold;
-  padding: 1% 0;
-  text-align: left;
+/* Lightbox */
+
+.modal-header {
+  border-bottom: 0;
+  padding-bottom: 1rem;
 }
 
-.service-description {
-  text-align: left;
+.modal-header .close {
+  font-size: 2.5rem;
 }
 
-.service-image {
-  margin: 2% 0;
-}
-
-.service-youtube {
-  margin: 3% 0 2%;
-}
-
-.slideshow-card {
-  margin: 2% 0;
-}
-
-.slideshow-text {
-  text-align: left;
-}
-
-.testimonial {
-  padding: 1% 0;
-  line-height: 1.5;
-  text-align: center;
+.modal-backdrop.show {
+  opacity: .9;
 }
 
 /* Footer Section */
@@ -156,11 +169,8 @@ h4 {
   text-align: center;
 }
 
-.copyright-text {
-
-}
-
 .footer-left {
+  line-height: 0.5;
   margin-top: 1%;
 }
 
@@ -172,15 +182,6 @@ h4 {
 .footer-title {
   font-weight: bold;
   line-height: 2;
-}
-
-.footer-text {
-  line-height: 0.5;
-}
-
-.hr-footer {
-  padding-top: 3%;
-  width: 20rem;
 }
 
 .social-icon {
