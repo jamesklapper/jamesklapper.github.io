@@ -115,11 +115,6 @@ hr {
   margin: .5% 0;
 }
 
-.card-description {
-  margin-top: .75rem;
-  line-height: 1;
-}
-
 .card-subtitle {
   font-weight: bold;
   margin-top: .75rem;
@@ -135,7 +130,7 @@ hr {
   padding-bottom: 1%;
 }
 
-.other-resources {
+.text-spacing {
   margin: 1px 0;
 }
 
