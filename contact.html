@@ -115,37 +115,47 @@
       <!-- Send Us A Message -->
       <div class="row">
         <div class="col">
-          <div class="card primary-card bg-secondary text-light">
+          <div class="card primary-card">
             <div class="card-body">
-              <h3 class="card-title">CONTACT US</h3>
+              <h5 class="card-subtitle text-center">SEND US A MESSAGE</h5>
               <hr>
-              <form>
+              <form class="needs-validation" novalidate>
                 <div class="form-row">
                   <div class="form-group col-6">
                     <label for="firstName">First Name</label>
-                    <input type="text" class="form-control" id="firstName" placeholder="First">
+                    <input type="text" class="form-control" id="firstName" placeholder="First" required>
+                    <div class="invalid-feedback">
+                      Required
+                    </div>
                   </div>
                   <div class="form-group col-6">
                     <label for="lastName">Last Name</label>
-                    <input type="text" class="form-control" id="lastName" placeholder="Last">
+                    <input type="text" class="form-control" id="lastName" placeholder="Last" required>
+                    <div class="invalid-feedback">
+                      Required
+                    </div>
                   </div>
                 </div>
                 <div class="form-group">
                   <label for="emailAddress">Email Address</label>
-                  <input type="email" class="form-control" id="emailAddress" aria-describedby="emailHelp" placeholder="Email">
+                  <input type="email" class="form-control" id="emailAddress" aria-describedby="emailHelp" placeholder="Email" required>
+                  <div class="invalid-feedback">
+                    Required
+                  </div>
                 </div>
                 <div class="form-group">
                   <label for="yourMessage">Message</label>
-                  <textarea rows="5" class="form-control" id="yourMessage" placeholder="Your Message"></textarea>
+                  <textarea rows="5" class="form-control" id="yourMessage" placeholder="Your Message" required></textarea>
+                  <div class="invalid-feedback">
+                    Required
+                  </div>
                 </div>
-                <button type="submit" class="btn btn-light">Submit</button>
+                <button type="submit" class="btn btn-secondary">Submit</button>
               </form>
-
             </div>
           </div>
         </div>
       </div>
-
     </div>
   </section>
   <!-- End Content Section -->
@@ -173,6 +183,28 @@
     </div>
   </footer>
   <!-- End Footer -->
+
+  <!-- JavaScript for disabling form submissions if there are invalid fields -->
+  <!-- Source: https://getbootstrap.com/docs/4.3/components/forms/#custom-styles -->
+  <script>
+    (function() {
+      'use strict';
+      window.addEventListener('load', function() {
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        var forms = document.getElementsByClassName('needs-validation');
+        // Loop over them and prevent submission
+        var validation = Array.prototype.filter.call(forms, function(form) {
+          form.addEventListener('submit', function(event) {
+            if (form.checkValidity() === false) {
+              event.preventDefault();
+              event.stopPropagation();
+            }
+            form.classList.add('was-validated');
+          }, false);
+        });
+      }, false);
+    })();
+  </script>
 
   <!-- Bootstrap Scripts -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
