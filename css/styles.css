@@ -44,6 +44,11 @@
 
 /* General Properties */
 
+a[href^=tel] {
+   text-decoration:inherit;
+   color: inherit;
+}
+
 body {
   font-family: 'Muli', sans-serif;
   text-align: left;
