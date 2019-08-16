@@ -44,6 +44,7 @@
 
 /* General Properties */
 
+/* No blue-colored phone numbers on iOS */
 a[href^=tel] {
    text-decoration:inherit;
    color: inherit;
