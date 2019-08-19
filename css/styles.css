@@ -146,6 +146,10 @@ hr {
   text-align: center;
 }
 
+.contact-card {
+  padding-top: 8%;
+}
+
 /* Lightbox */
 
 .modal-header {
@@ -160,7 +164,6 @@ hr {
 .modal-backdrop.show {
   opacity: .9;
 }
-
 
 /* Footer Section */
 
