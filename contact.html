@@ -117,42 +117,40 @@
         <div class="col">
           <div class="card primary-card">
             <div class="card-body">
-              <h5 class="card-subtitle text-center">SEND US A MESSAGE</h5>
-              <hr>
-              <form class="needs-validation" novalidate>
-                <div class="form-row">
-                  <div class="form-group col-lg-6">
-                    <label for="firstName">First Name</label>
-                    <input type="text" class="form-control" id="firstName" placeholder="First" required>
-                    <div class="invalid-feedback">
-                      Required
-                    </div>
-                  </div>
-                  <div class="form-group col-lg-6">
-                    <label for="lastName">Last Name</label>
-                    <input type="text" class="form-control" id="lastName" placeholder="Last" required>
-                    <div class="invalid-feedback">
-                      Required
-                    </div>
-                  </div>
-                </div>
-                <div class="form-group">
-                  <label for="emailAddress">Email Address</label>
-                  <input type="email" class="form-control" id="emailAddress" aria-describedby="emailHelp" placeholder="Email" required>
-                  <div class="invalid-feedback">
-                    Required
-                  </div>
-                </div>
-                <div class="form-group">
-                  <label for="yourMessage">Message</label>
-                  <textarea rows="5" class="form-control" id="yourMessage" placeholder="Your Message" required></textarea>
-                  <div class="invalid-feedback">
-                    Required
-                  </div>
-                </div>
-                <button type="submit" class="btn btn-secondary">Submit</button>
-              </form>
-              <hr>
+
+              <div id="wufoo-z1bvud9c10ysbwi"> Fill out my <a href="https://jaklapper.wufoo.com/forms/z1bvud9c10ysbwi">online form</a>. </div>
+              <script type="text/javascript">
+                var z1bvud9c10ysbwi;
+                (function(d, t) {
+                  var s = d.createElement(t),
+                    options = {
+                      'userName': 'jaklapper',
+                      'formHash': 'z1bvud9c10ysbwi',
+                      'autoResize': true,
+                      'height': '463',
+                      'async': true,
+                      'host': 'wufoo.com',
+                      'header': 'show',
+                      'ssl': true
+                    };
+                  s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'secure.wufoo.com/scripts/embed/form.js';
+                  s.onload = s.onreadystatechange = function() {
+                    var rs = this.readyState;
+                    if (rs)
+                      if (rs != 'complete')
+                        if (rs != 'loaded') return;
+                    try {
+                      z1bvud9c10ysbwi = new WufooForm();
+                      z1bvud9c10ysbwi.initialize(options);
+                      z1bvud9c10ysbwi.display();
+                    } catch (e) {}
+                  };
+                  var scr = d.getElementsByTagName(t)[0],
+                    par = scr.parentNode;
+                  par.insertBefore(s, scr);
+                })(document, 'script');
+              </script>
+              
             </div>
           </div>
         </div>
