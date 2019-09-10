@@ -3,9 +3,6 @@
   .container-fluid {
     padding: 0;
   }
-  .logo {
-    font-size: 1.5rem;
-  }
   .content-box {
     padding: 1.25rem 0;
   }
@@ -15,9 +12,6 @@
 @media (min-width: 576px) {
   .container-fluid {
     padding: 0;
-  }
-  .logo {
-    font-size: 1.5rem;
   }
   .content-box {
     padding: 1.25rem 0;
@@ -33,9 +27,6 @@
 @media (min-width: 992px) {
   .container-fluid {
     padding: 0 15%;
-  }
-  .logo {
-    font-size: 1.75rem;
   }
   .content-box {
     padding: 1.25rem;
