@@ -1,5 +1,8 @@
 /* Smartphone */
 @media (max-width: 575.98px) {
+  .container-fluid {
+    padding: 0;
+  }
   .logo {
     font-size: 1.25rem;
   }
