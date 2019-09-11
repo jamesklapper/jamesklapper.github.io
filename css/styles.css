@@ -26,6 +26,9 @@
 
 /* Medium */
 @media (min-width: 768px) {
+  .content-box {
+    padding: 1.25rem;
+  }
   .logo {
     font-size: 2rem;
   }
@@ -33,9 +36,6 @@
 
 /* Large */
 @media (min-width: 992px) {
-  .content-box {
-    padding: 1.25rem;
-  }
   .logo {
     font-size: 1.5rem;
   }
