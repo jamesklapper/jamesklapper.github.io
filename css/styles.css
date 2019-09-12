@@ -63,6 +63,10 @@ a:hover {
   text-decoration: none;
 }
 
+a i:hover {
+  color: #00bfff;
+}
+
 body {
   font-family: 'Muli', sans-serif;
   text-align: left;
@@ -88,22 +92,18 @@ hr {
   margin: 3% 0;
 }
 
-i:hover {
-  color: #00bfff;
-}
-
 /* Navigation Sidebar */
 
 .active {
-  background-color: #345d7f;
+  background-color: #3a688d;
 }
 
 .bg-logo {
-  background-color: #457ca9;
+  background-color: #4c86b6;
 }
 
 .bg-toggler {
-  background-color: #457ca9;
+  background-color: #4c86b6;
 }
 
 .bg-nav-item {
@@ -112,11 +112,11 @@ i:hover {
 }
 
 .bg-nav-item:hover {
-  background-color: #4c86b6;
+  background-color: #5a8fbc;
 }
 
 .bg-connect {
-  background-color: #457ca9;
+  background-color: #4c86b6;
   border-top: 1px solid #345d7f;
 }
 
@@ -151,11 +151,11 @@ i:hover {
 }
 
 .bg-header {
-  background-color: #345d7f;
+  background-color: #3f729b;
 }
 
 .banner {
-  background-color: #457ca9;
+  background-color: #84accd;
   color: #fff;
 }
 
