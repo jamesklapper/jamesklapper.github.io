@@ -96,6 +96,7 @@ hr {
 
 .active {
   background-color: #3a688d;
+  border-top: 1px solid #345d7f;
 }
 
 .bg-logo {
