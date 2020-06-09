@@ -67,6 +67,30 @@
         <div class="col-lg-8 col-md-12">
           <div class="card rounded-0 border-0">
             <div class="card-body content-box bg-content-box">
+              <!-- Contact Info -->
+              <div class="row">
+                <div class="col-lg-6 col-sm">
+                  <div class="card rounded-0 border-0 bg-transparent">
+                    <div class="card-body text-center px-0 pt-3 pb-0">
+                      <p class="mb-0">Address:</p>
+                      <p class="mb-0">303 Court House South Dennis Rd</p>
+                      <p class="">Cape May Court House, NJ 08210</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-sm">
+                  <div class="card rounded-0 border-0 bg-transparent">
+                    <div class="card-body text-center px-0 pt-3 pb-0">
+                      <p class="mb-0">Tel: (609) 425-4645</p>
+                      <p class="mb-0">Fax: (888) 836-8895</p>
+                      <a class="text-dark" href="mailto:audiologyNJ@gmail.com">
+                        <p class="text-center">Email: AudiologyNJ@gmail.com</p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <hr class="mt-0 mb-4">
               <!-- Hours of Operation -->
               <div class="card rounded-0 mb-4 bg-header">
                 <div class="card-body m-3">
@@ -135,14 +159,14 @@
                   <h5 class="card-subtitle">Saturday: TBD</h5>
                   <!-- Sunday -->
                   <h5 class="card-subtitle">Sunday: TBD</h5>
-                  <hr>
+                  <hr class="mb-4">
                   <p>Extended hours may be possible upon request.</p>
                 </div>
               </div>
               <!-- Footer -->
               <footer class="text-center">
                 <hr>
-                <p class="pt-3">©2019 <span class="font-weight-bold">AUDIOLOGY CENTER OF NJ</span></p>
+                <p class="pt-3">©2020 <span class="font-weight-bold">AUDIOLOGY CENTER OF NJ</span></p>
                 <a href="#content" class="btn btn-secondary btn-md text-center"><i class="far fa-arrow-alt-circle-up fa-lg"></i> BACK TO TOP</a>
               </footer>
             </div>
@@ -151,35 +175,12 @@
       </div>
     </div>
   </section>
-
-
-  <!-- YouTube Lightbox Script -->
-  <!-- Source- https://parrot-tutorial.com/run_code.php?snippet=bs4_modal_youtube -->
-  <script>
-    $(document).ready(function() {
-      // Set iframe attributes when the show instance method is called
-      $("#videoModal").on("show.bs.modal", function(event) {
-        let button = $(event.relatedTarget); // Button that triggered the modal
-        let url = button.data("video"); // Extract url from data-video attribute
-
-        $(this).find("iframe").attr({
-          src: url,
-          allow: "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        });
-      });
-
-      // Remove iframe attributes when the modal has finished being hidden from the user
-      $("#videoModal").on("hidden.bs.modal", function() {
-        $("#videoModal iframe").removeAttr("src allow");
-      });
-    });
-  </script>
+  <!-- End Content Section -->
 
   <!-- Bootstrap Scripts -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
 </body>
 
 </html>
